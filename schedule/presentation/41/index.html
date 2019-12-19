@@ -1,0 +1,480 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>PyConFr 2015 | Presentation: Découverte de Django</title>
+        
+
+        
+    <link href="../../../../2015_static/pyconfr/css/style.css" rel="stylesheet">
+    
+
+
+        
+            <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+            <!--[if lt IE 9]>
+                <script src="/2015_static/pinax/js/html5shiv.js"></script>
+            <![endif]-->
+        
+
+        
+    <meta property="og:image" content="http://www.pycon.fr/2015_static/pyconfr/images/social.png" />
+    <link href="http://www.pycon.fr/2015_static/img/favicon.ico" rel="shortcut icon" />
+    <link rel='stylesheet' id='oswald-css'
+     href='http://fonts.googleapis.com/css?family=Oswald&#038;ver=3.3.2'
+     type='text/css' media='all' />
+    <script src="../../../../2015_static/pinax/js/jquery.js"></script>
+    <link href="../../../../2015_static/markitup/skins/simple/style.css" type="text/css" media="screen" rel="stylesheet" />
+<link href="../../../../2015_static/markitup/sets/markdown/style.css" type="text/css" media="screen" rel="stylesheet" />
+
+
+<script type="text/javascript" src="../../../../2015_static/markitup/ajax_csrf.js"></script>
+<script type="text/javascript" src="../../../../2015_static/markitup/jquery.markitup.js"></script>
+<script type="text/javascript" src="../../../../2015_static/markitup/sets/markdown/set.js"></script>
+
+
+    
+
+    </head>
+    <body class="" id="">
+        <div class="">
+
+            
+    <div class="container">
+        <header id="masthead">
+            <div class="pull-right">
+                <ul class="nav nav-pills">
+                    
+                        <li>
+                            <a href="../../../account/login/index.html">Connexion</a>
+                        </li>
+                        <li>
+                            <a href="../../../account/signup/index.html">Inscription</a>
+                        </li>
+                    
+                </ul>
+            </div>
+
+            <h1 class="nodisplay"><a href="../../../index.html">PyConFr 2015</a></h1>
+            <a href="../../../index.html"><img src="../../../../2015_static/pyconfr/images/banner.png" alt="}"/></a>
+        </header>
+        <div class="navbar">
+            <div class="navbar-inner">
+                
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="nav-collapse">
+                        
+                            
+<ul class="nav">
+    
+        <li class=" ">
+            <a href="index.html#unresolved" >
+                Accueil
+                
+            </a>
+            
+        </li>
+    
+        <li class=" ">
+            <a href="../../../schedule.html" >
+                Agenda
+                
+            </a>
+            
+        </li>
+    
+        <li class=" ">
+            <a href="http://www.4ideas.fr/project/DjangoCarrots" >
+                Django Carrots
+                
+            </a>
+            
+        </li>
+    
+        <li class=" ">
+            <a href="../../../sprints.html" >
+                sprints
+                
+            </a>
+            
+        </li>
+    
+        <li class="dropdown ">
+            <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">
+                Infos pratiques
+                <b class="caret"></b>
+            </a>
+            
+                
+<ul class="dropdown-menu">
+    
+        <li >
+            <a href="index.html#unresolved" >Lieu</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Se loger</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >À propos</a>
+        </li>
+    
+</ul>
+            
+        </li>
+    
+        <li class="dropdown ">
+            <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">
+                Sponsors
+                <b class="caret"></b>
+            </a>
+            
+                
+<ul class="dropdown-menu">
+    
+        <li >
+            <a href="index.html#unresolved" >Types de parrainage</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Devenez sponsor !</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Les sponsors de PyConFr 2015</a>
+        </li>
+    
+</ul>
+            
+        </li>
+    
+        <li class="dropdown ">
+            <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">
+                Conférenciers
+                <b class="caret"></b>
+            </a>
+            
+                
+<ul class="dropdown-menu">
+    
+        <li >
+            <a href="index.html#unresolved" >Appel à proposition</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Poster</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Sprints</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Code de conduite</a>
+        </li>
+    
+        <li >
+            <a href="index.html#unresolved" >Bourse</a>
+        </li>
+    
+</ul>
+            
+        </li>
+    
+</ul>
+                        
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+            
+    <div class="container">
+        
+
+
+        
+            
+        
+
+        
+            <div class="row">
+                <div class="span9">
+                    
+    
+        <h4>
+            samedi
+            10:25:00&ndash;10:50:00
+        </h4>
+    
+    <h2>Découverte de Django</h2>
+
+    <h4>
+        
+            <a href="../../../speaker/profile/43/index.html">Pierre CHARLET</a>
+    </h4>
+
+    <dl class="dl-horizontal">
+        <dt>Audience level:</dt>
+        <dd style="margin-bottom: 0;">Novice</dd>
+    </dl>
+
+    <h3>Description</h3>
+
+    <div class="description"><p>Django est un framework web largement utilisé dans la communauté Python.
+Au cours de cette présentation, nous allons présenter Django, ses concepts, le cadre de travail qu'il propose, autour d'un exemple d'écriture d'une application web.
+Nous parlerons également de sa communauté accueillante et des ressources annexes.</p></div>
+
+    <h3>Abstract</h3>
+
+    <div class="abstract"><p>Django est un framework web écrit en Python largement utilisé dans cette communauté.
+Utilisant le modèle MVT, modèles, vues, templates, il contient tous les outils nécessaire au développement d'une application web, tant de petite que de grosse envergure.</p>
+<p>Django nous fournit une palette importante d'outils supplémentaires nous permettant la résolution de problèmes courant tel que l'administration (backoffice), la gestion d'utilisateurs, la traduction ou encore la gestion des sessions. L'écosystème se met à jour sur les besoins du web, django rest-framework et django-pytest en sont deux illustrations.</p>
+<p>La communauté, très ouverte et motrice de changements, est présente tout au long de l'élaboration de votre projet pour vous aider !</p></div>
+
+                </div>
+                <div class="span3">
+                    
+                        
+
+
+
+
+
+<h2 style="margin: 0;">Sponsors</h2>
+
+<div class="sponsor-list">
+    
+        
+            <h3 style="margin: 0;">Platinium</h3>
+            
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.eisti.fr/">
+                        <img src="../../../../2015_media/sponsor_files/EISTI_HD_Bleu_-_transparent.png.100x60_q85.png" alt="E.I.S.T.I." />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://xcg-consulting.fr/">
+                        <img src="../../../../2015_media/sponsor_files/Logo_XCG_1_4DBY3Ap.jpg.100x60_q85.jpg" alt="XCG Consulting" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.lexsi.com/fr">
+                        <img src="../../../../2015_media/sponsor_files/Logo_Lexsi.png.100x60_q85.png" alt="Lexsi" />
+                    </a>
+                </div>
+            
+        
+    
+        
+            <h3 style="margin: 0;">Gold</h3>
+            
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.yaal.fr/">
+                        <img src="../../../../2015_media/sponsor_files/yaal_5_6Fcq8vR.png.100x60_q85.png" alt="Yaal" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.unlish.com/">
+                        <img src="../../../../2015_media/sponsor_files/LogoClean_vert_1_QJc0D12.png.100x60_q85.png" alt="Unlish" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.majerti.fr/">
+                        <img src="../../../../2015_media/sponsor_files/majerti.png.100x60_q85.png" alt="Majerti" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.helioparc.fr/">
+                        <img src="../../../../2015_media/sponsor_files/helioparc.jpg.100x60_q85.jpg" alt="Technopole Helioparc" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.treshautdebit.com/">
+                        <img src="../../../../2015_media/sponsor_files/logo-1.png.100x60_q85.png" alt="THD" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.makina-corpus.com/">
+                        <img src="../../../../2015_media/sponsor_files/logo_a4Vy03O.png.100x60_q85.png" alt="Makina Corpus" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.tinyclues.com/">
+                        <img src="../../../../2015_media/sponsor_files/logo_tinyclues.png.100x60_q85.png" alt="tinyclues" />
+                    </a>
+                </div>
+            
+        
+    
+        
+            <h3 style="margin: 0;">Bronze</h3>
+            
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://anybox.fr/">
+                        <img src="../../../../2015_media/sponsor_files/anybox_carre_200dpi_idx.png.100x60_q85.jpg" alt="Anybox" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.mozilla.org/fr/">
+                        <img src="../../../../2015_media/sponsor_files/mozilla_wordmark_ECrhVWu.png.100x60_q85.png" alt="Mozilla" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.alwaysdata.com/">
+                        <img src="../../../../2015_media/sponsor_files/alwaysdata_print_pd2UP0t.png.100x60_q85.png" alt="AlwaysData" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.wingware.com/">
+                        <img src="../../../../2015_media/sponsor_files/wingware-button-2015.png.100x60_q85.png" alt="Wingware" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.ecreall.com/">
+                        <img src="../../../../2015_media/sponsor_files/logoEcreall3DSimple.png.100x60_q85.png" alt="Ecreall" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.people-doc.fr/">
+                        <img src="../../../../2015_media/sponsor_files/logo_PDGamme_bynova_RVB.jpg.100x60_q85.jpg" alt="PeopleDoc" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.univ-pau.fr/live/">
+                        <img src="../../../../2015_media/sponsor_files/LogoUPPAcouleurRVB.png.100x60_q85.png" alt="Université de Pau et des Pays de l&#39;Adour" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.net-ng.com/">
+                        <img src="../../../../2015_media/sponsor_files/net-ng-pycon.png.100x60_q85.png" alt="Net NG" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.sysnove.fr/">
+                        <img src="../../../../2015_media/sponsor_files/64x208_baseline.png.100x60_q85.png" alt="Sysnove" />
+                    </a>
+                </div>
+            
+        
+    
+        
+            <h3 style="margin: 0;">Partenaires</h3>
+            
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://boutique.ed-diamond.com/">
+                        <img src="../../../../2015_media/sponsor_files/logo_LM.png.100x60_q85.png" alt="Éditions Diamond" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://kozea.org/">
+                        <img src="../../../../2015_media/sponsor_files/Logo_Kozea_20151.png.100x60_q85.png" alt="Kozea" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.editions-eni.fr/">
+                        <img src="../../../../2015_media/sponsor_files/eniLogo_200x200.jpg.100x60_q85.jpg" alt="Éditions ENI" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.2isr.fr/">
+                        <img src="../../../../2015_media/sponsor_files/2isr_o3dzszs.png.100x60_q85.png" alt="2isr" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.parites.fr/">
+                        <img src="../../../../2015_media/sponsor_files/logo_98Iauiy.png.100x60_q85.png" alt="Parites" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="https://www.paulla.asso.fr/">
+                        <img src="../../../../2015_media/sponsor_files/logo_q70i2eE.png.100x60_q85.png" alt="PauLLA" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.mips-lab.net/">
+                        <img src="../../../../2015_media/sponsor_files/logo_4dYsf2M.png.100x60_q85.png" alt="MIPS-Lab" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.air-eisti.fr/forum/">
+                        <img src="../../../../2015_media/sponsor_files/aireisti_logo_small_kY1NzsC.png.100x60_q85.jpg" alt="AirEISTI" />
+                    </a>
+                </div>
+            
+                <div style="margin: 0.5em 0;">
+                    <a href="http://www.ethno-urban.fr/">
+                        <img src="../../../../2015_media/sponsor_files/logoEthnoUrban.png.100x60_q85.png" alt="Ethno Urban" />
+                    </a>
+                </div>
+            
+        
+    
+</div>
+
+                    
+                </div>
+            </div>
+        
+    </div>
+
+        </div>
+
+        
+    
+    <script src="../../../../2015_static/bootstrap/js/bootstrap.js"></script>
+    <script src="../../../../2015_static/pinax/js/theme.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#logout_link").on("click", function(e) {
+                var form = $($(this).data("form-submit"));
+                form.submit();
+                return false;
+            });
+            $(".required-field").prepend("<span style='color:red;'>* </div>");
+        });
+    </script>
+    
+
+
+        
+            
+        
+    </body>
+</html>
